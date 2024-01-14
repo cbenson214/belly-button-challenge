@@ -78,7 +78,7 @@ function buildBarChart(sample) {
     })
   };
   
-// Setup bar chart//
+// Setup bubble chart//
 function buildBubbleChart(sample) {
     // Load and retrieve sample data//
     d3.json(url).then((data) => {
